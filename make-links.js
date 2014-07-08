@@ -21,14 +21,30 @@ function findNodeModulesPath() {
     return nodeModulesPath;
 }
 
+function pathIncludesPackageDotJson(path) {
+    var fileList;
+
+    fileList = fs.readdirSync(path);
+
+    return fileList.indexOf('package.json') !== -1;
+}
+
 function findProjectRootPath() {
     var nodeModulesPath = findNodeModulesPath();
     var nodeModulesPathPieces;
+    var path;
 
     nodeModulesPathPieces = nodeModulesPath.split(/[\\\/]/);
     nodeModulesPathPieces.pop();
 
-    return nodeModulesPathPieces.join('/');
+    path = nodeModulesPathPieces.join('/');
+
+    if (!pathIncludesPackageDotJson(path)) {
+        console.log('ua5-frontend-standards install script cannot find base repository, aborting');
+        process.exit();
+    }
+
+    return path;
 }
 
 function isFileSymbolicLink(filename) {
