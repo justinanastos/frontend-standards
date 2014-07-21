@@ -1,6 +1,6 @@
 {
   "name": "ua5-frontend-standards",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "Use All Five, Inc. Frontend Standards and Linter Configurations",
   "scripts": {
     "install-links": "node make-links.js",
