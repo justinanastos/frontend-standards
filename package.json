@@ -1,7 +1,7 @@
 {
-  "name": "ua5-frontend-standards",
-  "version": "0.0.4",
-  "description": "Use All Five, Inc. Frontend Standards and Linter Configurations",
+  "name": "justin-anastos-frontend-standards",
+  "version": "1.0.0",
+  "description": "Justin Anastos's Frontend Standards and Linter Configurations",
   "scripts": {
     "install-links": "node make-links.js",
     "postinstall": "npm run install-links",
@@ -9,17 +9,17 @@
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/UseAllFive/frontend-standards.git"
+    "url": "git://github.com/justinanastos/frontend-standards.git"
   },
   "author": {
     "name": "Justin Anastos",
-    "email": "janastos@useallfive.com"
+    "email": "justin.anastos@gmail.com"
   },
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/UseAllFive/frontend-standards/issues"
+    "url": "https://github.com/justinanastos/frontend-standards/issues"
   },
-  "homepage": "https://github.com/UseAllFive/frontend-standards",
+  "homepage": "https://github.com/justinanastos/frontend-standards",
   "devDependencies": {
     "grunt": "^0.4.5",
     "grunt-release": "^0.7.0",

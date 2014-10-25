@@ -1,4 +1,3 @@
-frontend-standards
-==================
+# frontend-standards
 
-Use All Five's Frontend Coding Standards
+Justin Anastos's Frontend Coding Standards
