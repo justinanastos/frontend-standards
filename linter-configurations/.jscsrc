@@ -1,5 +1,5 @@
 {
-    "additionalRules": ["node_modules/ua5-frontend-standards/jscs-rules/*.js"],
+    "additionalRules": ["node_modules/justin-anastos-frontend-standards/jscs-rules/*.js"],
     "disallowKeywords": ["with"],
     "disallowKeywordsOnNewLine": ["else"],
     "disallowMultipleLineBreaks": true,
