@@ -1,6 +1,6 @@
 {
   "name": "justin-anastos-frontend-standards",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Justin Anastos's Frontend Standards and Linter Configurations",
   "scripts": {
     "install-links": "node make-links.js",
